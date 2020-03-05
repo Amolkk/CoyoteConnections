@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "816999340833",
+    "firebase_url": "https://ccdb-c5ddb.firebaseio.com",
+    "project_id": "ccdb-c5ddb",
+    "storage_bucket": "ccdb-c5ddb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816999340833:android:aca5da609e1dec00fe3c60",
+        "android_client_info": {
+          "package_name": "com.ccdb.categories2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816999340833-k182kdfa65jibqjtkvnp7pogumdjfh72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDltQk4r90MYdL_dkjkJ7abqeg9V27cE4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816999340833-k182kdfa65jibqjtkvnp7pogumdjfh72.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "816999340833-alm4fgrnjnhr6s0umpb5ivj950o3vg47.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.categories2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
