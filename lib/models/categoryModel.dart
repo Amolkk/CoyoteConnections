@@ -1,3 +1,6 @@
+/*
+import 'package:firebase_database/firebase_database.dart';
+
 
 class CategoryModel {
   String type;
@@ -6,28 +9,22 @@ class CategoryModel {
   CategoryModel({this.type, this.categoryKey});
 
 }
+*/
 
-/*
 class CategoryModel {
-  String key;
-  String subject;
-  bool completed;
-  String userId;
+  String id;
+  String type;
 
-  CategoryModel(this.subject, this.userId, this.completed);
+  CategoryModel({this.type, this.id});
 
-  CategoryModel.fromSnapshot(DataSnapshot snapshot)
-      : key = snapshot.key,
-        userId = snapshot.value["userId"],
-        subject = snapshot.value["subject"],
-        completed = snapshot.value["completed"];
+  CategoryModel.fromMap(Map snapshot, String id)
+      : id = id ?? '',
+        type = snapshot["type"] ?? '';
 
   toJson() {
     return {
-      "userId": userId,
-      "subject": subject,
-      "completed": completed,
+      "id": id,
+      "type": type,
     };
   }
 }
-*/

@@ -1,12 +1,12 @@
 import "package:firebase_database/firebase_database.dart";
 
-class User {
-  String uid; //if problem do final
+class AdminUser {
+  String uid; //if problen do final
   String email;
   int phoneNo;
-  User({this.uid, this.email, this.phoneNo});
+  AdminUser({this.uid, this.email, this.phoneNo});
 
-  User.fromSnapshot(DataSnapshot snapshot)
+  AdminUser.fromSnapshot(DataSnapshot snapshot)
       : // uid = snapshot.uid,
         email = snapshot.value['email'],
         phoneNo = snapshot.value['phoneNo'];
